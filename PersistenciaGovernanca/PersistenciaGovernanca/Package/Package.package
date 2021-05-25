@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="566ed009-c9ff-4ad8-878c-b06858d87dda" solutionId="566ed009-c9ff-4ad8-878c-b06858d87dda" resetWebServer="false" sharePointProductVersion="15.0" name="FURNAS.GestaoSPE.PerGov" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="5710c080-2404-47b6-bf2d-3ddeda43ea48" />
+    <featureReference itemId="2aff1cca-6150-4268-9c62-6ba43c9f47cd" />
+  </features>
+</package>

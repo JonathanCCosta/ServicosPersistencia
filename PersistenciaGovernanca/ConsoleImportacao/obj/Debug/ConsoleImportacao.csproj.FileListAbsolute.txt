@@ -1,0 +1,14 @@
+C:\Users\FURNAS2016\Documents\Visual Studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\ConsoleImportacao\bin\Debug\ConsoleImportacao.exe.config
+C:\Users\FURNAS2016\Documents\Visual Studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\ConsoleImportacao\bin\Debug\ConsoleImportacao.exe
+C:\Users\FURNAS2016\Documents\Visual Studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\ConsoleImportacao\bin\Debug\ConsoleImportacao.pdb
+C:\Users\FURNAS2016\Documents\Visual Studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\ConsoleImportacao\bin\Debug\Microsoft.Data.Edm.dll
+C:\Users\FURNAS2016\Documents\Visual Studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\ConsoleImportacao\bin\Debug\Microsoft.Data.OData.dll
+C:\Users\FURNAS2016\Documents\Visual Studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\ConsoleImportacao\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\Users\FURNAS2016\Documents\Visual Studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\ConsoleImportacao\bin\Debug\System.Spatial.dll
+C:\Users\FURNAS2016\Documents\Visual Studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\ConsoleImportacao\bin\Debug\Microsoft.Data.Edm.xml
+C:\Users\FURNAS2016\Documents\Visual Studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\ConsoleImportacao\bin\Debug\Microsoft.Data.OData.xml
+C:\Users\FURNAS2016\Documents\Visual Studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\ConsoleImportacao\bin\Debug\Microsoft.Data.Services.Client.xml
+C:\Users\FURNAS2016\Documents\Visual Studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\ConsoleImportacao\bin\Debug\System.Spatial.xml
+C:\Users\FURNAS2016\Documents\Visual Studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\ConsoleImportacao\obj\Debug\ConsoleImportacao.csprojResolveAssemblyReference.cache
+C:\Users\FURNAS2016\Documents\Visual Studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\ConsoleImportacao\obj\Debug\ConsoleImportacao.exe
+C:\Users\FURNAS2016\Documents\Visual Studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\ConsoleImportacao\obj\Debug\ConsoleImportacao.pdb

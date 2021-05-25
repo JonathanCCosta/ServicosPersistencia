@@ -1,0 +1,5 @@
+C:\Users\FURNAS2016\documents\visual studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\FURNAS.GestaoSPE.PersistenciaGovernanca\bin\Debug\FURNAS.GestaoSPE.PersistenciaGovernanca.dll
+C:\Users\FURNAS2016\documents\visual studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\FURNAS.GestaoSPE.PersistenciaGovernanca\bin\Debug\FURNAS.GestaoSPE.PersistenciaGovernanca.pdb
+C:\Users\FURNAS2016\documents\visual studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\FURNAS.GestaoSPE.PersistenciaGovernanca\obj\Debug\FURNAS.GestaoSPE.PersistenciaGovernanca.dll
+C:\Users\FURNAS2016\documents\visual studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\FURNAS.GestaoSPE.PersistenciaGovernanca\obj\Debug\FURNAS.GestaoSPE.PersistenciaGovernanca.pdb
+C:\Users\FURNAS2016\documents\visual studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\FURNAS.GestaoSPE.PersistenciaGovernanca\obj\Debug\FURNAS.GestaoSPE.GovernancaPersistencia.csprojResolveAssemblyReference.cache

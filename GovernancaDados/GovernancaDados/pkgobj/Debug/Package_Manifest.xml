@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="d28428cf-aa90-4c2d-8a42-042f77589614" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="FURNAS.GestaoSPE.GovernancaDados.dll" DeploymentTarget="WebApplication" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="FURNAS.GestaoSPE.GovernancaDados_FeatureDiario\Feature.xml" />
+    <FeatureManifest Location="FURNAS.GestaoSPE.GovernancaDados_FeatureMensal\Feature.xml" />
+  </FeatureManifests>
+</Solution>

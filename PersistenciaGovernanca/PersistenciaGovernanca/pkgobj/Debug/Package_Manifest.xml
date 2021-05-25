@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="566ed009-c9ff-4ad8-878c-b06858d87dda" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="FURNAS.GestaoSPE.PersistenciaGovernanca.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="FURNAS.GestaoSPE.GovernancaPersistencia_MensalFeature\Feature.xml" />
+    <FeatureManifest Location="FURNAS.GestaoSPE.GovernancaPersistencia_DiarioFeature\Feature.xml" />
+  </FeatureManifests>
+</Solution>

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D29A2760-E4EA-40CC-BF24-5E3F43A58E49}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FURNAS.GestaoSPE.PersistenciaGovernanca</RootNamespace>
+    <AssemblyName>FURNAS.GestaoSPE.PersistenciaGovernanca</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Features\MensalFeature\MensalFeature.EventReceiver.cs">
+      <DependentUpon>MensalFeature.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Features\DiarioFeature\DiarioFeature.EventReceiver.cs">
+      <DependentUpon>DiarioFeature.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Atividades.cs" />
+    <Compile Include="Model\Complexo.cs" />
+    <Compile Include="Model\ConselhoAdministracao.cs" />
+    <Compile Include="Model\Contato.cs" />
+    <Compile Include="Model\Diretoria.cs" />
+    <Compile Include="Model\DocumentosBalancoPatrimonia.cs" />
+    <Compile Include="Model\Empreendimento.cs" />
+    <Compile Include="Model\EscritorioSPE.cs" />
+    <Compile Include="Model\FluxodeCaixa.cs" />
+    <Compile Include="Model\Governanca.cs" />
+    <Compile Include="Model\ItemFC.cs" />
+    <Compile Include="Model\Logo.cs" />
+    <Compile Include="Model\Obra.cs" />
+    <Compile Include="Model\ParticipacaoSPE.cs" />
+    <Compile Include="Model\SPE.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proxy\Sisspehml.cs" />
+    <Compile Include="Proxy\Usuario.cs" />
+    <Compile Include="Service\AtividadesService.cs" />
+    <Compile Include="Service\ComplexoService.cs" />
+    <Compile Include="Service\ConselhoAdministracaoService.cs" />
+    <Compile Include="Service\DiretoriaService.cs" />
+    <Compile Include="Service\DocumentosBalancoPatrimoniaService.cs" />
+    <Compile Include="Service\EmpreendimentoService.cs" />
+    <Compile Include="Service\EscritorioSPEService.cs" />
+    <Compile Include="Service\FluxodeCaixaService.cs" />
+    <Compile Include="Service\GovernancaService.cs" />
+    <Compile Include="Service\ItemFCService.cs" />
+    <Compile Include="Service\Log.cs" />
+    <Compile Include="Service\ObraService.cs" />
+    <Compile Include="Service\ParticipacaoSPEService.cs" />
+    <Compile Include="Service\SPEService.cs" />
+    <Compile Include="TimerJob\JobDiario.cs" />
+    <Compile Include="TimerJob\JobMensal.cs" />
+    <Compile Include="TimerJob\GovernancaImportacaoDiario.cs" />
+    <Compile Include="TimerJob\GovernancaImportacaoMensal.cs" />
+    <Compile Include="Utilities\URLsAmbiente.cs" />
+    <Compile Include="Utilities\Email.cs" />
+    <Compile Include="Utilities\LogHelper.cs" />
+    <Compile Include="Web References\GovernancaConsolidaSPE\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Features\DiarioFeature\DiarioFeature.feature">
+      <FeatureId>{2aff1cca-6150-4268-9c62-6ba43c9f47cd}</FeatureId>
+    </None>
+    <None Include="Features\MensalFeature\MensalFeature.feature">
+      <FeatureId>{5710c080-2404-47b6-bf2d-3ddeda43ea48}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Package\Package.package">
+      <PackageId>{566ed009-c9ff-4ad8-878c-b06858d87dda}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Web References\GovernancaConsolidaSPE\lists.wsdl" />
+    <None Include="Web References\GovernancaConsolidaSPE\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Features\DiarioFeature\DiarioFeature.Template.xml">
+      <DependentUpon>DiarioFeature.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\MensalFeature\MensalFeature.Template.xml">
+      <DependentUpon>MensalFeature.feature</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://www.sisspehml.cepel.br/dnnet/sp/gep/gestaospe/_vti_bin/lists.asmx%3fWSDL">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\GovernancaConsolidaSPE\</RelPath>
+      <UpdateFromURL>http://www.sisspehml.cepel.br/dnnet/sp/gep/gestaospe/_vti_bin/lists.asmx%3fWSDL</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

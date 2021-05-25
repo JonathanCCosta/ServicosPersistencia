@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="FURNAS.GestaoSPE.PersistenciaGovernancaMensal" Description="importacao de dados do site SPT para o site de Governaca" Id="2db4d462-e6e8-4adb-a53c-b6e6e6452831" ReceiverAssembly="FURNAS.GestaoSPE.PersistenciaGovernanca, Version=1.0.0.0, Culture=neutral, PublicKeyToken=86b8fa5507f5260d" ReceiverClass="FURNAS.GestaoSPE.PersistenciaGovernanca.Features.Importacao.ImportacaoEventReceiver" Scope="Site"></Feature>

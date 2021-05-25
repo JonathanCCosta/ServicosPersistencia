@@ -1,0 +1,14 @@
+C:\Users\FURNAS2016\Documents\Visual Studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\LibraryImportacao\bin\Debug\LibraryImportacao.dll
+C:\Users\FURNAS2016\Documents\Visual Studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\LibraryImportacao\bin\Debug\LibraryImportacao.pdb
+C:\Users\FURNAS2016\Documents\Visual Studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\LibraryImportacao\bin\Debug\LibraryImportacao.pri
+C:\Users\FURNAS2016\Documents\Visual Studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\LibraryImportacao\obj\Debug\LibraryImportacao.dll
+C:\Users\FURNAS2016\Documents\Visual Studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\LibraryImportacao\obj\Debug\LibraryImportacao.pdb
+C:\Users\FURNAS2016\Documents\Visual Studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\LibraryImportacao\obj\Debug\priconfig.xml.intermediate
+C:\Users\FURNAS2016\Documents\Visual Studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\LibraryImportacao\obj\Debug\layout.resfiles.intermediate
+C:\Users\FURNAS2016\Documents\Visual Studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\LibraryImportacao\obj\Debug\resources.resfiles.intermediate
+C:\Users\FURNAS2016\Documents\Visual Studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\LibraryImportacao\obj\Debug\pri.resfiles.intermediate
+C:\Users\FURNAS2016\Documents\Visual Studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\LibraryImportacao\obj\Debug\priconfig.xml
+C:\Users\FURNAS2016\Documents\Visual Studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\LibraryImportacao\obj\Debug\layout.resfiles
+C:\Users\FURNAS2016\Documents\Visual Studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\LibraryImportacao\obj\Debug\resources.resfiles
+C:\Users\FURNAS2016\Documents\Visual Studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\LibraryImportacao\obj\Debug\pri.resfiles
+C:\Users\FURNAS2016\Documents\Visual Studio 2012\Projects\FURNAS.GestaoSPE.PersistenciaGovernanca\LibraryImportacao\obj\Debug\LanguageQualifiers.txt

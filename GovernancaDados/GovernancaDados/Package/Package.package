@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="d28428cf-aa90-4c2d-8a42-042f77589614" solutionId="d28428cf-aa90-4c2d-8a42-042f77589614" resetWebServer="false" sharePointProductVersion="15.0" name="FURNAS.GestaoSPE.GovernancaDados" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="4ba39bea-b296-41fe-b5a1-2d99368e861f" />
+    <featureReference itemId="bd0e3453-3bac-4942-b6a6-c61913ef56ed" />
+  </features>
+</package>
